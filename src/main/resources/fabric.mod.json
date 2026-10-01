@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "blockswap",
+  "version": "${version}",
+  "name": "Block Swap",
+  "description": "Press a key to make diamond blocks look like gold blocks and vice versa. Visual only.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.blockswap.BlockSwapClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
